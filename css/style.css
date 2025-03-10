@@ -723,7 +723,7 @@ body {
     border-radius: 6px;
     width: 160px;
     height: 50px;
-    padding: 20px 40px;
+    padding: 20px 50px;
     color: #FFFDFA;
 }
 
@@ -746,6 +746,7 @@ body {
     margin-bottom: 0px;
     padding: 40px 0;
     flex-direction: column;
+    width: 94%;
 }
 
 .mainvisual_inner_b {
@@ -754,13 +755,12 @@ body {
 
 .main_message {
     line-height: 40px;
-    margin: 40px 20px 20px 20px;
+    margin: 40px 0px 20px 0px;
 }
 
 .sub_message {
     line-height: 30px;
-    margin: 0 40px;
-    /* font-size: 16px; */
+    margin: 0 16px;
 }
 
 .mobile-br {
@@ -786,6 +786,7 @@ body {
     font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: normal;
+    margin-left: 8px;
   }
 
 
@@ -837,12 +838,31 @@ body {
     padding: 3px 6px;
 }
 
+.service_list {
+    margin-bottom: 32px;
+}
+
+.reserve_btn {
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+}
 /* .service_experience p {
     width: 86%;
 } */
 
 #voice {
     padding: 40px 0;
+}
+
+#voice h2 {
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+#voice h2 img {
+    width: 19px;
+    margin-right: 6px;
 }
 
 .voice {
@@ -865,53 +885,16 @@ body {
 
 
 
-#projectcase {
-    max-width: 94%;
-    padding-top: 80px;
-}
 
-#projectcase h2 {
-    margin-bottom: -120px;
-    margin-left: 0;
-}
-
-.h2_projectcase {
-    width: 200px;
-}
-
-.h2_projectcase {
-    display: block;
-}
-
-.h2_sub_project {
-    /* font-size: 16px; */
-    font-size: 1rem;
-    margin-left: 40px;
-}
-
-.projectcase_inner {
-    max-width: 94%;
-    padding: 100px 20px 64px 20px;;
-}
-
-.case_list_name {
-    width: auto;
-}
-
-/* .case_list_p {
-    width: auto;
-    padding-top: 8px;
-    margin-top: 8px;
-} */
-
-.case_list_inner {
-    display: block;
-}
 
 
 #company {
     max-width: 94%;
     padding-top: 40px;
+}
+
+#company h2 {
+    margin-left: 8px;
 }
 
 .h2_company {
