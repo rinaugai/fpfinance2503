@@ -775,8 +775,8 @@ body {
 
 #service {
     max-width: 94%;
-    padding-top: 64px;
     margin-bottom: 40px;
+    margin-top: 64px;
 }
 
 #service h2 {
@@ -831,6 +831,10 @@ body {
 
 .service02_img {
     padding: 48px 0;
+}
+
+.service_name span {
+    padding: 3px 6px;
 }
 
 /* .service_experience p {
