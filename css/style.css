@@ -760,7 +760,7 @@ body {
 .sub_message {
     line-height: 30px;
     margin: 0 40px;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .mobile-br {
